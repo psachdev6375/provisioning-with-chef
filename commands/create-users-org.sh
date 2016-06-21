@@ -1,0 +1,2 @@
+chef-server-ctl user-create psachdev Puneet Sachdev puneet.sachdev@gmail.com password -f admin.pem
+chef-server-ctl org-create provisioning "Provisioning with Chef" --association_user psachdev -f org.pem
